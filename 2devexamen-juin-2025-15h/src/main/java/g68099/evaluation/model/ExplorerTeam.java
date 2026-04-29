@@ -1,4 +1,4 @@
-package g68099.evaluation;
+package g68099.evaluation.model;
 
 import java.util.ArrayList;
 import java.util.Collections;

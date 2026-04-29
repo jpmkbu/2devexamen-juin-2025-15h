@@ -1,4 +1,4 @@
-package g68099.evaluation;
+package g68099.evaluation.model;
 
 public enum Gemstone {
     DIAMOND(5000), RUBY(3000), SAPPHIRE(2500), EMERALD(4000), TOPAZ(800),

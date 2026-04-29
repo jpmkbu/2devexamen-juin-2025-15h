@@ -1,10 +1,10 @@
-package g68099.evaluation;
+package g68099.evaluation.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Explorer {
+public class Explorer implements Comparable<Explorer>{
     private String name;
     private List<Gemstone> gems = new ArrayList<>();
 
@@ -29,5 +29,10 @@ public class Explorer {
             total += g.getValue();
         }
         return total;
+    }
+
+    @Override
+    public int compareTo(Explorer o) {
+        return Integer.compare(this.getTotalValue(),o.getTotalValue());
     }
 }

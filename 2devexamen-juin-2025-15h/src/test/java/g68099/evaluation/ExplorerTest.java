@@ -1,5 +1,7 @@
 package g68099.evaluation;
 
+import g68099.evaluation.model.Explorer;
+import g68099.evaluation.model.Gemstone;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

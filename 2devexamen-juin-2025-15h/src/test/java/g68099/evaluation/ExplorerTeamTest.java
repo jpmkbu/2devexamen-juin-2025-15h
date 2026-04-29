@@ -1,7 +1,8 @@
 package g68099.evaluation;
 
+import g68099.evaluation.model.Explorer;
+import g68099.evaluation.model.ExplorerTeam;
 import org.junit.jupiter.api.Test;
-import org.w3c.dom.stylesheets.LinkStyle;
 
 import java.util.List;
 
